@@ -4,53 +4,53 @@ M.palette = {
   ---------------------------------------------------------------------------
   -- CORE BACKGROUND SHADES (dark → light)
   -- bg0: Extreme darkest background. Use sparingly (e.g. backdrop, contrast)
-  bg0 = "#0D0D0D",
+  bg0 = "#070d16",
   -- bg1: Primary editor background (Normal). Change this first when theming.
-  bg1 = "#121212",
+  bg1 = "#0a161b",
   -- bg2: Secondary surface (CursorLine, popup menus, subtle panels, selection bg)
-  bg2 = "#333333",
+  bg2 = "#0b322b",
   -- bg3: Elevated / emphasized surface (statusline, tabline selected, titles)
-  bg3 = "#212121",
+  bg3 = "#0b3437",
 
   ---------------------------------------------------------------------------
   -- CORE FOREGROUNDS (bright → dim)
   -- fg0: Maximum contrast foreground (headings, strong emphasis)
-  fg0 = "#FFFFFF",
+  fg0 = "#008803",
   -- fg1: Primary text (Normal fg). Your main readable color.
-  fg1 = "#EAEAEA",
+  fg1 = "#008745",
   -- fg2: Secondary text (less important content, doc strings, mild dim)
-  fg2 = "#BEBEBE",
+  fg2 = "#005e37",
   -- fg3: Tertiary / subtle text (line numbers, inactive, meta info)
-  fg3 = "#8A8A8D",
+  fg3 = "#10533a",
 
   ---------------------------------------------------------------------------
   -- SELECTION & MISC
   -- selbg: Visual selection background, also used for inverse accents
-  selbg = "#262626",
+  selbg = "#105e64",
   -- selfg: Foreground inside selected regions (ensure contrast vs selbg)
-  selfg = "#EAEAEA",
+  selfg = "#5cbdc5",
   -- comment: Comment text + doc annotations (generally muted)
-  comment = "#8A8A8D",
+  comment = "#1f2e34",
 
   ---------------------------------------------------------------------------
   -- ACCENT / SEMANTIC COLOR SLOTS
   -- color1: Error / critical / strong statement (used for errors, statements, git removed)
-  color1 = "#FF3E55",
+  color1 = "#98454c",
   -- color2: Primary accent / info highlight (mode indicators, roots, success/add)
-  color2 = "#00D6D1",
+  color2 = "#008772",
   -- color3: Attention / todo / highlight matches (TODO tags, search matches)
-  color3 = "#FFD447",
+  color3 = "#e2ec54",
   -- color4: Modified / constant / neutral warm accent (constants, modified files)
-  color4 = "#5A7CFF",
+  color4 = "#002434",
   -- color5: Type / secondary accent / soft alert (types, replace mode, interface)
-  color5 = "#FF7DEB",
+  color5 = "#693844",
   -- color6: Keywords / strong structural tokens / alternate error (keywords, visual mode bg, directives)
-  color6 = "#4CFF8F",
+  color6 = "009503#",
 
   ---------------------------------------------------------------------------
   -- UI DECORATIVE & LOW EMPHASIS ELEMENTS
   -- uic1: Borders, separators, guides, non-content structural UI
-  uic1 = "#5C6370",
+  uic1 = "#397853",
 }
 
 function M.apply()
